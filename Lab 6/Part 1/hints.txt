@@ -1,0 +1,17 @@
+Hints:
+
+1) use besenham algorithm to vote on the direction of the radiant. Also a good improvement would be to calculate the intersection points on the extremes so the line i more close to reality compared to using 2 very close points in which case the line will be off.
+
+ 
+
+Possible Optimizations:
+
+1) Find what would be the maximum radius of a coin(Ex:50), add a buffer (like 50+5) and instead of finding the intersection of the line you vote on with the border of the screen, find the intersection of the line with the box centered on the edge you vote on and with the side equal to 2* (maxcoin+buffer). This will improve your voting image (imagev.ppm)
+
+2) In order to improve the results of 5.3 (some coins are having too much noise inside and if you try to eliminate that noise you lose coins on the other parts of the image) try to implement the idea of segmentation/divide&conquer: divide the image in several parts (4,6,8,..) and apply canny edge to each piece individually. That means each piece has fewer coins and thus you can adjust the threshold values individually to each piece. That will results in a better canny edge detection In order to eliminate duplicates you may implement the idea of segmentation we discussed in class. Segmentation can be applied at the step of canny edge (in order to obtain better edges and less noise on different parts of the image). This will improve your edges image (imagef.ppm)
+
+3) You may apply segmentation/divide&conquer also at the step of deciding if an edge is a center or not. Divide the image in several pieces and for each piece use a different threshold value to decide if the edge is a candidate for a center or not. This will result in an improvement of the image of candidates for centers (imageCC.ppm)
+
+4) Apply a bluring before the sobel operator. That may also ive you some improvement of the canny edge detection (so the imagef.ppm)
+
+5) Look at the image and you may decide that 2 coins can't be closer than a certain value, lets say x. Then apply a convolution (a matrix of size x) such that you keep inside that matrix either the max value or the top 10% of values that you marked as candidates for center. Best would be to work with percentage so that you do not lose the actual centers. This will create an improved imageCC.ppm since it will eliminate a lot of candidaes that are not actual centers

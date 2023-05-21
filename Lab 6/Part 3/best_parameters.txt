@@ -1,0 +1,18 @@
+for hard image:
+- lt 50,  -ht 75
+minradius 80 maxradius 180
+for easy image:
+-q1t 30 -q2t 25 -a3t 35 -q4t 35, -lt 50 -ht 75
+
+
+for medium image:
+./a.out -f coinsHarder.ppm -lt 75 -ht 100 -q1t 20 -q2t 20 -q3t 30 -q4t 30 -minR 80 -maxR 120 -TCircle 22
+
+for hard image:
+./a.out -f coinshardst.ppm -lt 30 -ht 60
+
+./a.out -f coinsHardest.ppm -lt 30 -ht 60 -q1t 35 -q2t 30 -q3t 25 -q4t 25
+
+./a.out -f coinsHardest.ppm -lt 30 -ht 60 -q1t 35 -q2t 30 -q3t 25 -q4t 25 -minR 75 -maxR 180 -hard -mincentdist 70 -TCircle 30  
+
+./a.out -f coinsHardest.ppm -lt 40 -ht 60 -q1t 35 -q2t 30 -q3t 25 -q4t 25 -minR 70 -maxR 180 -hard -mincentdist 70 -TCircle 30

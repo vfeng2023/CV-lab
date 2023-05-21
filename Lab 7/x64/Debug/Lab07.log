@@ -1,0 +1,9 @@
+﻿  l071.cpp
+G:\My Drive\2022-23 School Year\5 Computer Vision\Lab 7\l071.cpp(96,109): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+G:\My Drive\2022-23 School Year\5 Computer Vision\Lab 7\l071.cpp(96,101): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+G:\My Drive\2022-23 School Year\5 Computer Vision\Lab 7\l071.cpp(101,111): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+G:\My Drive\2022-23 School Year\5 Computer Vision\Lab 7\l071.cpp(101,103): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+G:\My Drive\2022-23 School Year\5 Computer Vision\Lab 7\l071.cpp(112,26): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\My Drive\2022-23 School Year\5 Computer Vision\Lab 7\l071.cpp(193,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\My Drive\2022-23 School Year\5 Computer Vision\Lab 7\l071.cpp(308,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Lab07.vcxproj -> G:\My Drive\2022-23 School Year\5 Computer Vision\Lab 7\x64\Debug\Lab07.exe

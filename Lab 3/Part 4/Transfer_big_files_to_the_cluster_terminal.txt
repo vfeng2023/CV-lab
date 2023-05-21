@@ -1,0 +1,1 @@
+pscp -P 22 points1m.txt ejurj@remote.tjhsst.edu:/cluster/ejurj

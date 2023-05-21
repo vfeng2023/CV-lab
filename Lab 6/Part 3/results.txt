@@ -1,0 +1,7 @@
+penny - 3
+nickel - 0
+dime - 0
+quarter - 3
+half dollar - 0
+dollar - 0
+Total: $0.78

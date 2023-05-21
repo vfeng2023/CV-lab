@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "list": "cpp",
+        "vector": "cpp",
+        "cstdlib": "cpp",
+        "utility": "cpp",
+        "iosfwd": "cpp",
+        "cmath": "cpp"
+    }
+}

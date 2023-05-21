@@ -1,0 +1,76 @@
+The plane defined by (x-a)*n =0 is:
+  a = (500, 300, 200)
+  n = (1,2,3)
+The eye e is:
+  e = (800, 50, 123)
+
+Vertices I used to create he 2d coordinate system and their projections are:
+v1 = (100.0,100.0,100.0)
+v2 = (...,...,...)
+v3 = (...,...,...)
+
+pv1 = (...,...,...)
+pv2 = (...,...,...)
+pv3 = (...,...,...)
+
+The 2 vectors a and b that are in plane are:
+a = pv1-pv2 = (....,...,...)
+b = pv3-pv1 = (...,...,...) 
+
+The w1 and w2 obtained from a and b (these now are perpendicular and of magnitude 1) are:
+w1 = (...,...,...)
+w2 = (...,...,...)
+
+The center of the cube in first frame and its projection are:
+center = (...,...,...)
+p0 = (...,...,...)
+
+The coordinates in the 2d plane x = p0 + u*w1 + v*w2 are:
+(where p0 is the origin, preferraby the projection of the center of the cube in first frame, w1 and w2 are 2 perpendicular vertices in the plane)
+  p0 = (..,..,..)
+  w1 = (..,..,..)
+  w2 = (..,..,..)
+
+The frame1 in 3d has the following edges:
+(should be 12 edges, 12 pairs of 3d coordinates (x,y,z))
+  (100.00,100.000,100.0001), (100,-100,100)
+  (100,100,100), (100,100,-100)
+  (100,100,100), (-100,100,100)
+  ...
+The frame1 in 2d has the following edges:
+(should be 12 edges, 12 pairs of 2d coordinates (u,v), if the vertices do not cross the plane these are the projections of the 3d points on the plane)
+  (..,..), (..,..)
+  ....
+
+The frame2 in 3d has the following edges:
+(should be 12 edges, 12 pairs of 3d coordinates (x,y,z))
+  (..,..,..), (..,..,..)
+  (..,..,..), (..,..,..)
+  (..,..,..), (..,..,..)
+  ...
+The frame2 in 2d has the following edges:
+(should be 12 edges, 12 pairs of 2d coordinates (u,v), if the vertices do not cross the plane these are the projections of the 3d points on the plane)
+  (..,..), (..,..)
+  ....
+
+The frame3 in 3d has the following edges:
+(should be 12 edges, 12 pairs of 3d coordinates (x,y,z))
+  (..,..,..), (..,..,..)
+  (..,..,..), (..,..,..)
+  (..,..,..), (..,..,..)
+  ...
+The frame3 in 2d has the following edges:
+(should be 12 edges, 12 pairs of 2d coordinates (u,v), if the vertices do not cross the plane these are the projections of the 3d points on the plane)
+  (..,..), (..,..)
+  ....
+
+The frame4 in 3d has the following edges:
+(should be 12 edges, 12 pairs of 3d coordinates (x,y,z))
+  (..,..,..), (..,..,..)
+  (..,..,..), (..,..,..)
+  (..,..,..), (..,..,..)
+  ...
+The frame4 in 2d has the following edges:
+(should be 12 edges, 12 pairs of 2d coordinates (u,v), if the vertices do not cross the plane these are the projections of the 3d points on the plane)
+  (..,..), (..,..)
+  ....
